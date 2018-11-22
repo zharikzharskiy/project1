@@ -1,11 +1,14 @@
-. header {
-  background-color: red;
-  font-weight: bold;
-  height: auto;
+.header {
+  background-color: #292929;
+  height: 105px;
+  justify-content: space-around;
+
 }
 .logo {
+  color: aliceblue;
 
 }
 .navigation {
+  justify-content: center;
 
 }
