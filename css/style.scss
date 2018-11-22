@@ -1,14 +1,35 @@
 .header {
+  display: flex;
   background-color: #292929;
-  height: 105px;
-  justify-content: space-around;
+  height: 120px;
+  justify-content: space-between;
+  padding: 50px 500px 50px 500px;
 
 }
 .logo {
+  height: 100px;
+  width: 240px;
   color: aliceblue;
 
 }
 .navigation {
+  align-items: center;
+  display: flex;
   justify-content: center;
 
+
+
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+
+}
+a:hover {
+  background-color: red;
+  border-radius: 4px ;
 }
